@@ -2,6 +2,7 @@ module.exports = {
   "title": "hito-blog",
   "description": "hito-blog",
   "dest": "public",
+  "base": '/hito-blog/',
   "head": [
     [
       "link",
