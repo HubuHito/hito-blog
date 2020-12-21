@@ -1,2 +1,0 @@
-# hito-blog
-# hito-blog
