@@ -2,16 +2,14 @@
   "name": "hito-blog",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build .",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
-    "vuepress": "1.5.4",
-    "vuepress-theme-reco": "1.5.7"
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-redirect": "^1.2.5"
   },
-  "dependencies": {
-    "vue-class-component": "^7.2.3"
-  },
+  "dependencies": {},
   "description": "hito-blog"
 }
