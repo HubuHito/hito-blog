@@ -2,6 +2,7 @@ module.exports = {
   title: 'hito-blog',
   description: 'hito-blog',
   dest: 'dist',
+  base: '/hito-blog/',
   head: [
       ['link', { rel: 'icon', href: `/favicon.png` }],
   ],
